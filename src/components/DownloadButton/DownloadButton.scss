@@ -1,0 +1,19 @@
+.download-button {
+  position: absolute;
+  margin-top: 10px;
+  border: 1px solid #514250;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding: 10px 20px;
+  background: linear-gradient(180deg, rgb(89, 97, 116) 0%, rgb(173, 183, 170) 100%);
+  text-decoration: none;
+  color: #fff;
+  pointer-events: none;
+
+  &.active {
+    border: 1px solid #2546A1;
+    background: linear-gradient(180deg, rgba(104, 131, 207, 1) 0%, rgba(0, 66, 247, 1) 100%);
+    pointer-events: auto;
+  }
+}

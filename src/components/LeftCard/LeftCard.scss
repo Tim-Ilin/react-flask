@@ -1,0 +1,29 @@
+.card__left{
+  border: 10px solid #2546A1;
+  border-radius: 20px;
+  height: 400px;
+  width: 340px;
+  & h2{
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 55px;
+    text-align: center;
+  }
+  & p {
+    text-align: center;
+    margin: 40px auto 0;
+    height: 55px;
+    width: 240px;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 19px;
+  }
+  &--icon {
+    height: 95px;
+    width: 190px;
+    margin: 30px auto 0;
+    background: url("/left-card-icon.svg");
+  }
+}

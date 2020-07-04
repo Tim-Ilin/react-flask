@@ -1,0 +1,30 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  //background: url("/top-shape.svg") no-repeat;
+  background: url("/down-shape.svg") no-repeat;
+  background-position: bottom left;
+  //bottom -200px right -190px;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+#top-shape {
+  z-index: -1;
+  right: 0;
+  position: absolute;
+  width: 40%;
+}

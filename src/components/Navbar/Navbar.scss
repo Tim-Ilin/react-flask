@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  & a {
+    padding: 10px;
+    width: 100px;
+  }
+
+  & ul {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 25px 10px 0 0;
+
+    &--link {
+      font-family: Roboto;
+      font-weight: bold;
+      text-decoration: none;
+      color: #7FABC0;
+    }
+  }
+}
